@@ -7,86 +7,86 @@
         
         <!-- API Gateway -->
         <mxCell id="api_gateway" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="300" y="50" width="120" height="40" />
+          <mxGeometry x="300" y="50" width="120" height="40" as="geometry" />
         </mxCell>
         
         <!-- Row 1 -->
         <mxCell id="user_auth" value="User Authentication" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="100" y="150" width="120" height="40" />
+          <mxGeometry x="100" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="user_mgmt" value="User Management" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="300" y="150" width="120" height="40" />
+          <mxGeometry x="300" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="calendar" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="500" y="150" width="120" height="40" />
+          <mxGeometry x="500" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         
         <!-- Row 2 -->
         <mxCell id="ticketing" value="Ticketing" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="100" y="250" width="120" height="40" />
+          <mxGeometry x="100" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="content_mgmt" value="Content Management" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="300" y="250" width="120" height="40" />
+          <mxGeometry x="300" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="payment" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="500" y="250" width="120" height="40" />
+          <mxGeometry x="500" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         
         <!-- Row 3 -->
         <mxCell id="inventory" value="Inventory" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="100" y="350" width="120" height="40" />
+          <mxGeometry x="100" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="notification" value="Notification" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="300" y="350" width="120" height="40" />
+          <mxGeometry x="300" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="analytics" value="Analytics" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="500" y="350" width="120" height="40" />
+          <mxGeometry x="500" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         
         <!-- Edges from API Gateway to All Services -->
         <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="user_auth">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="user_mgmt">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="calendar">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="ticketing">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="content_mgmt">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="payment">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="inventory">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="notification">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="api_gateway" target="analytics">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
         <!-- Inter-Service Connections -->
         <mxCell id="edge10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="ticketing" target="user_mgmt">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="ticketing" target="notification">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="content_mgmt" target="user_auth">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="payment" target="notification">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;" edge="1" parent="1" source="payment" target="inventory">
-          <mxGeometry relative="1" />
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
