@@ -1,17 +1,66 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.2.5">
-  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+<mxfile host="app.diagrams.net">
+  <diagram id="microservice-architecture" name="Microservices Architecture">
     <mxGraphModel dx="2068" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qqp3DeQIi-0g7hke7Y3K-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" edge="1" parent="1" source="67w3SQ40c2-7z7gaWtt0-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="230" as="targetPoint" />
-          </mxGeometry>
+        
+        <!-- API Gateway -->
+        <mxCell id="api-gateway" value="API Gateway" style="rounded=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="50" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="67w3SQ40c2-7z7gaWtt0-1" value="Microservice" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
-          <mxGeometry x="80" y="90" width="700" height="40" as="geometry" />
+        
+        <!-- Microservices -->
+        <mxCell id="user-service" value="User Service" style="rounded=1;fillColor=#F4A261;strokeColor=#E76F51;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="100" y="150" width="200" height="50" as="geometry" />
         </mxCell>
+
+        <mxCell id="order-service" value="Order Service" style="rounded=1;fillColor=#2A9D8F;strokeColor=#264653;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="150" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="inventory-service" value="Inventory Service" style="rounded=1;fillColor=#E9C46A;strokeColor=#F4A261;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="500" y="150" width="200" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Databases -->
+        <mxCell id="user-db" value="User DB" style="shape=cylinder;fillColor=#264653;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="order-db" value="Order DB" style="shape=cylinder;fillColor=#264653;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="300" y="250" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="inventory-db" value="Inventory DB" style="shape=cylinder;fillColor=#264653;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="500" y="250" width="200" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="api-user" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#006658;" edge="1" parent="1" source="api-gateway" target="user-service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="api-order" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#006658;" edge="1" parent="1" source="api-gateway" target="order-service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="api-inventory" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#006658;" edge="1" parent="1" source="api-gateway" target="inventory-service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="user-db-connection" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#264653;" edge="1" parent="1" source="user-service" target="user-db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="order-db-connection" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#264653;" edge="1" parent="1" source="order-service" target="order-db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="inventory-db-connection" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#264653;" edge="1" parent="1" source="inventory-service" target="inventory-db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
       </root>
     </mxGraphModel>
   </diagram>
