@@ -46,4 +46,116 @@
       </root>
     </mxGraphModel>
   </diagram>
+<diagram name="Level 1 DFD - Admin">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Admin Actor -->
+        <mxCell id="2" value="Admin" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process: Manage Users -->
+        <mxCell id="3" value="Manage Users" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process: Manage Projects -->
+        <mxCell id="4" value="Manage Projects" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process: Assign Tasks -->
+        <mxCell id="5" value="Assign Tasks" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process: Generate Reports -->
+        <mxCell id="6" value="Generate Reports" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Stores -->
+        <mxCell id="7" value="User Data" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Project Data" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Ticket Data" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Reports" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Flows -->
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="3" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="4" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="5" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="6" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+ <diagram name="Level 1 DFD - User">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- User Actor -->
+        <mxCell id="2" value="User" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process: Login -->
+        <mxCell id="3" value="Login" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process: Create/Update Ticket -->
+        <mxCell id="4" value="Create/Update Ticket" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process: View Projects -->
+        <mxCell id="5" value="View Projects" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process: View Tasks -->
+        <mxCell id="6" value="View Tasks" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Stores -->
+        <mxCell id="7" value="Session Data" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Ticket Data" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Project Data" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Flows -->
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="3" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="4" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="5" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
